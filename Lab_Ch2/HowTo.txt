@@ -1,0 +1,41 @@
+================ EditPlus ================
+1. Open EditPlus
+
+2. Configure User Tools
+    - Group Name = Java
+
+3. Add Tool > Program
+    - Menu Text = compile
+    - Command = path to javac.exe in your computer
+    - Argument = File Name
+    - Initial Directory = File Directory
+
+4. Add Tool > Program
+    - Menu Text = compile
+    - Command = path to java.exe in your computer
+    - Argument = File Name Without Extension
+    - Initial Directory = File Directory
+
+================ NetBeans ================
+1. Open NetBeans
+
+2. New Project > Java Application
+    - Project Location = Lab_Ch2
+    - Project Name = Examples2
+    - Take out "Create Main Class" tick
+
+3. Add all *.java in folder Examples2/src
+
+4. Source files are under tab "Projects > Source Package > default package"
+    - double click to see source code
+    - shift + F6 to run individual file (main class)
+
+5. To add new program under existing project
+    - right click default package
+    - New > Java Main Class
+
+6. Input/output files are placed in Examples2 directly (outside subfolders)
+
+** To collapse all code blocks : ctrl + shift + minus
+** To expand   all code blocks : ctrl + shift + plus
+** To make font bigger/smaller : alt + mouse scrolling up/down
